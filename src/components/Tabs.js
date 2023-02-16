@@ -1,5 +1,12 @@
 import React from 'react';
-import './Tabs.css'
+import './Tabs.css';
+import ContactTab from './tab_components/contactTab';
+import HomeTab from './tab_components/homeTab';
+import ProjectTab from './tab_components/projectTab';
+
+
+
+
 
 const Tabs = (props) => {
     console.log(props) // { page: "home", setPage: fn() }
@@ -10,24 +17,15 @@ const Tabs = (props) => {
     // if we want to style the ACTIVE link different
     // const [activePage, setActivePage] = useState(props.page)  // "home"
 
+   
+
     return (
         <div className="tabs-container">
             <ul>
-                <li
-                    className='link'
-                    name="home"
-                    value="home"
-                    onClick={() => props.setPage('home')}>Home</li>
-                <li
-                    className='link'
-                    name="projects"
-                    value="projects"
-                    onClick={() => props.setPage('projects')}>Projects</li>
-                 <li
-                    className='link'
-                    name="contact"
-                    value="contact"
-                    onClick={() => props.setPage('contact')}>Contact</li>
+            <HomeTab page={props.page} setPage={props.setPage}/>
+            <ProjectTab page={props.page} setPage={props.setPage}/>
+            <ContactTab page={props.page} setPage={props.setPage}/>
+
             </ul>
         </div>
     )

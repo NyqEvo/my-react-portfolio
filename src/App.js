@@ -21,6 +21,10 @@ function App() {
     const pages = ["home", "projects", "contact"]
 
     const [currentPage, setCurrentPage] = useState(pages[0]);  // { title: "home" }
+// in css add flex to portfolio-main and 100%
+// flex-direction column
+// justifycontent space-between
+// Portfolio component 80vh
 
     return (
         <div className="portfolio-main">
