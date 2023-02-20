@@ -4,11 +4,15 @@
     width: 100%;
     align-items: center;
     align-self: center;
+    padding-top: 30px;
 }
 
 .portfolio-container {
     min-height: 75vh;
-    background-image: url('./images/portfolio-bg.jpg');
+    background: url('./images/portfolio-bg.jpg')no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
