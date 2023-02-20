@@ -5,26 +5,9 @@ import Portfolio from './components/Portfolio';
 
 function App() {
 
-    // we may need some piece of STATE to decide whwat Component is being rendere
-    /*const [pages, setPages] = useState([
-        { 
-            title: "home"
-        },
-        { 
-            title: "projects"
-        },
-        { 
-            title: "contact"
-        },
-    ]);
-    */
     const pages = ["home", "projects", "contact"]
 
-    const [currentPage, setCurrentPage] = useState(pages[0]);  // { title: "home" }
-// in css add flex to portfolio-main and 100%
-// flex-direction column
-// justifycontent space-between
-// Portfolio component 80vh
+    const [currentPage, setCurrentPage] = useState(pages[0]);  
 
     return (
         <div className="portfolio-main">
@@ -36,7 +19,7 @@ function App() {
             <Portfolio  page={currentPage} />
            
            <footer>
-            <p>Filler for footer</p>
+            <p>Made Using React</p>
            </footer>
         </div>
     )

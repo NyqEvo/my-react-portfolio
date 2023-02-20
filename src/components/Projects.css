@@ -5,3 +5,13 @@
     align-items: center;
     justify-items: center;
 }
+
+.project-container p {
+    text-align: center;
+    width: 60%;
+    margin: 20px;
+}
+
+.project-container h2 {
+    margin: 30px;
+}

@@ -26,7 +26,12 @@ header {
 }
 
 footer {
-   margin-top: auto;
+    margin-top: auto;
+    text-align: center;
+    font-size: 16px;
+    background-color: bisque;
+    padding: 20px;
+
 }
 
 header h1 {
@@ -36,11 +41,13 @@ header h1 {
 
 .portfolio-main {
     display: flex;
+    height: 100%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-.name-title, .header-description {
+.name-title,
+.header-description {
     display: flex;
     margin: 10px, 30px;
     padding: 20px;
@@ -49,4 +56,3 @@ header h1 {
 .header-description {
     border-bottom: 2px solid black;
 }
-

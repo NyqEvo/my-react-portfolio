@@ -6,3 +6,7 @@
     align-self: center;
 }
 
+.portfolio-container {
+    min-height: 75vh;
+}
+

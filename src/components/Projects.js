@@ -12,6 +12,7 @@ const Projects = () => {
 
             <h2>Task Sandwich</h2>
             <img src={gif} alt='gif demonstrating the Task Sandwich site'/>
+            <p>Task Sandwich is a project managment site with a reward system included. Users can earn reward credits to spend however they agree on spending them for their own real life rewards. Using Apollo GraphQL and MongoDb, we were able to successfully store data (with encryption for passwords) and send data to front end with a viariety of typeDefs and resolvers.</p>
 
         </div>
     )
