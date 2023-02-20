@@ -20,7 +20,7 @@ header {
     justify-content: center;
     align-items: center;
     padding: 20px 20px 0 20px;
-    background-color: bisque;
+    background: -webkit-linear-gradient(top, #88bfe8 0%,#70b0e0 100%);
     border-bottom: 1px solid black;
     margin-bottom: 25px;
 }
@@ -29,7 +29,7 @@ footer {
     margin-top: auto;
     text-align: center;
     font-size: 16px;
-    background-color: bisque;
+    background: -webkit-linear-gradient(top, #88bfe8 0%,#70b0e0 100%);
     padding: 20px;
 
 }
@@ -37,6 +37,10 @@ footer {
 header h1 {
     font-size: x-large;
     font-weight: bolder;
+}
+
+h3 {
+    font-size: 20px;
 }
 
 .portfolio-main {

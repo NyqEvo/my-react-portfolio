@@ -7,7 +7,7 @@ const Projects = () => {
 
     return (
         <div className="project-container">
-            <h1>Projects</h1>
+            <h3>Projects</h3>
             <p>This section will display all my relevant projects. "Task Sandwich will be the first one shown, with other projects such as mongoDB, mongoose, and back-end routing. Gifs or Pictures will be shown with short descriptions but I'm not sure what is most professional atm.</p>
 
             <h2>Task Sandwich</h2>

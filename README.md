@@ -2,6 +2,8 @@
 
 ## Description
 
+![Portfolio Image](./src/components/images/portfolio-pic.png)
+
 This is a simple react-based portfolio I will use to display my projects and contact info to employers (once it's styled properly). There is conditional rendering done based on which tab is being clicked on, passing this state to the components and rendering the corresponding one. This project uses react as well as stylesheets for each react component. I made this project to show I have a general understanding of react components and conditional rendering.
 
 ## Technologies
@@ -23,4 +25,5 @@ This is a simple react-based portfolio I will use to display my projects and con
         - Contact.js: gives links to my github and linkedIn, as well as my email. Comes with corresponding stylesheet.
 
 ## Links
+
 [Deployed Site To Heroku](https://nyqevo.github.io/my-react-portfolio/)

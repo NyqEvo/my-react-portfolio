@@ -8,5 +8,7 @@
 
 .portfolio-container {
     min-height: 75vh;
+    background-image: url('./images/portfolio-bg.jpg');
+    background-size: cover;
 }
 
