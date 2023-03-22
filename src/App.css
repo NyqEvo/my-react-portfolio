@@ -60,3 +60,10 @@ h3 {
 .header-description {
     border-bottom: 2px solid black;
 }
+
+@media (max-width: 390px) {
+    body {
+        width: 100%;
+        margin: 0;
+    }
+}

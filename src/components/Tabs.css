@@ -12,7 +12,7 @@
     display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 50%;
+    min-width: 60%;
     height: auto;
     padding: 0
 
@@ -36,4 +36,12 @@
     justify-content: center;
     padding: 5px;
     border: 2px, solid, black;
+}
+
+@media (max-width: 768px) {
+.tabs-container ul {
+    display: flex;
+    flex-direction: column;
+    min-width: 75%;
+}
 }

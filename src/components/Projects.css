@@ -15,3 +15,15 @@
 .project-container h2 {
     margin: 30px;
 }
+
+.project-container img {
+    min-width: 75%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .project-container img {
+        min-width: 50%;
+        height: auto;
+    }
+}
