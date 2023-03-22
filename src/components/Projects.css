@@ -23,7 +23,7 @@
 
 @media (max-width: 768px) {
     .project-container img {
-        min-width: 50%;
+        max-width: 50%;
         height: auto;
     }
 }
