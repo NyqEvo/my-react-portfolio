@@ -11,10 +11,10 @@ function App() {
     const [currentPage, setCurrentPage] = useState(pages[0]);
 
     return (
-        <div className="portfolio-main">
-            <header className="Header">
-                <h1 className='name-title'>Xavier Vergara</h1>
-                <p className='header-description'>Back-end Programmer</p>
+        <div className="portfolio-main container-fluid">
+            <header className="Header container-sm">
+                <h1 className='name-title h1'>Xavier Vergara</h1>
+                <p className='header-description h2'>Full-Stack Developer</p>
                 <Nav page={currentPage} setPage={setCurrentPage} />
             </header>
             <Portfolio page={currentPage} />
