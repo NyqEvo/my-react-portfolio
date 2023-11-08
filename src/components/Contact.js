@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Contact.css"
+//import "./Contact.css"
 import gitImg from "./images/github-small.png"
 import linkedinImg from "./images/linkedin-small.svg"
 
@@ -7,7 +7,7 @@ import linkedinImg from "./images/linkedin-small.svg"
 const Contact = () => {
 
     return (
-        <div className="contact-container">
+        <div className="contact-container container-lg">
             <h3>Contact Me</h3>
             <ul>
                 <li><a href='https://github.com/NyqEvo' target="_blank"><img src={gitImg}/>GitHub</a></li>

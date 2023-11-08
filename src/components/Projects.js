@@ -1,5 +1,5 @@
 import React from 'react';
-import './Projects.css';
+//import './Projects.css';
 import taskGif from './images/task-gif.gif';
 import thoughtsGif from './images/social-network-thoughts.gif';
 
@@ -7,7 +7,7 @@ import thoughtsGif from './images/social-network-thoughts.gif';
 const Projects = () => {
 
     return (
-        <div className="project-container">
+        <div className="project-container container-md">
             <h3>Projects</h3>
             <p>This section will display all my relevant projects. "Task Sandwich will be the first one shown, with other projects such as mongoDB, mongoose, and back-end routing. Gifs or Pictures will be shown with short descriptions below each.</p>
 

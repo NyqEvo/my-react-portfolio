@@ -2,8 +2,8 @@ import React from 'react';
 
 function Footer() {
     return(
-        <footer>
-            Made With React
+        <footer className='container-fluid'>
+            <p className='h5'> With React </p>
         </footer>
     )
 }

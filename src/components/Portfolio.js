@@ -1,7 +1,7 @@
 import Home from './Home';
 import Contact from './Contact';
 import Projects from './Projects';
-import "./Portfolio.css"
+//import "./Portfolio.css"
 
 
 const Portfolio = (props) => {
@@ -21,7 +21,7 @@ const Portfolio = (props) => {
     let page = props.page
 
     return (
-        <div className="portfolio-container">
+        <div className="portfolio-container container-lg">
             <div>
             {renderPage(page)}
             </div>
