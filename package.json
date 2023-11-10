@@ -1,6 +1,6 @@
 {
   "name": "my-react-portfolio",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "https://NyqEvo.github.io/my-react-portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -12,7 +12,7 @@
     "react-dom": "^17.0.1",
     "react-icons": "^4.1.0",
     "react-router-dom": "^6.8.1",
-    "react-scripts": "4.0.1",
+    "react-scripts": "5.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -21,7 +21,8 @@
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "style": "npx node-sass src/styles/main.scss src/styles/styles.css"
   },
   "eslintConfig": {
     "extends": [
