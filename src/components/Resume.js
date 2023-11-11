@@ -1,6 +1,5 @@
 import React from 'react';
 import resume from "./images/resume.png"
-//import './Resume.css'
 
 function Resume() {
     return (

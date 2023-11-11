@@ -1,7 +1,32 @@
-@import 'Contact';
-@import 'Footer';
-@import 'Home';
-@import 'Nav';
-@import 'Projects';
-@import 'Resume';
-@import 'bootstrap-sass/assets/stylesheets/bootstrap';
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
+@import 'contact';
+@import 'footer';
+@import 'home';
+@import 'nav';
+@import 'projects';
+@import 'resume';
+@import 'app';
+
+// $cyan-100: map-get($map: $cyans, $key:"cyan-100" );
+// $cyan-200: map-get($map: $cyans, $key:"cyan-200" );
+// $cyan-300: map-get($map: $cyans, $key:"cyan-300" );
+// $cyan-400: map-get($map: $cyans, $key:"cyan-400" );
+// $cyan-500: map-get($map: $cyans, $key:"cyan-500" );
+// $cyan-600: map-get($map: $cyans, $key:"cyan-600" );
+// $cyan-700: map-get($map: $cyans, $key:"cyan-700" );
+// $cyan-800: map-get($map: $cyans, $key:"cyan-800" );
+// $cyan-900: map-get($map: $cyans, $key:"cyan-900" );
+
+#root {
+    min-width: 100vh;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    background-color: $black !important; 
+    color: $white;
+}

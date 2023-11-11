@@ -3,10 +3,10 @@ import React from 'react';
 // import ContactTab from './tab_components/contactTab';
 // import HomeTab from './tab_components/homeTab';
 // import ProjectTab from './tab_components/projectTab';
-import Home from './Home';
-import Projects from './Projects';
-import Contact from './Contact';
-import { NavLink, BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import Home from './Home';
+// import Projects from './Projects';
+// import Contact from './Contact';
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -26,12 +26,12 @@ const Nav = () => {
         //     </ul>
         // </div>
 
-        <Router>
+        
             <div>
-                <nav className='navbar navbar-expand-lg navbar-light bg-info justify-content-center'>
+                <nav className='navbar navbar-expand-lg justify-content-center'>
                     <ul className='nav nav-tabs'>
                         <li className='navbar-item'>
-                            <NavLink to="/Home" className='nav-link' activeclass="active" exact="true">
+                            <NavLink to="/" className='nav-link' activeclass="active" exact="true">
                                 Home
                             </NavLink>
                         </li>
@@ -50,8 +50,8 @@ const Nav = () => {
 
                 <hr />
 
-                <Routes>
-                    <Route path="/Home" element={<Home title="Home" content="Tab for Home Component" />}>
+                {/* <Routes>
+                    <Route path="/" element={<Home title="Home" content="Tab for Home Component" />}>
 
                     </Route>
                     <Route path="/Projects" element={<Projects title="Projects" content="Tab for Project Component" />}>
@@ -60,9 +60,8 @@ const Nav = () => {
                     <Route path="/Contact" element={<Contact title="Contact" content="Tab for Contact Component" />}>
 
                     </Route>
-                </Routes>
+                </Routes> */}
             </div>
-        </Router>
     )
 }
 
