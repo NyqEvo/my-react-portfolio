@@ -1,0 +1,15 @@
+// @import "../../node_modules/bootstrap/scss/bootstrap";
+
+header, h1, header p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-decoration: underline;
+}

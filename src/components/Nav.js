@@ -1,12 +1,6 @@
 import React from 'react';
-//import './Tabs.css';
-// import ContactTab from './tab_components/contactTab';
-// import HomeTab from './tab_components/homeTab';
-// import ProjectTab from './tab_components/projectTab';
-// import Home from './Home';
-// import Projects from './Projects';
-// import Contact from './Contact';
 import { NavLink } from 'react-router-dom';
+import '../styles/nav.scss';
 
 
 
@@ -27,8 +21,8 @@ const Nav = () => {
         // </div>
 
         
-            <div>
-                <nav className='navbar navbar-expand-lg justify-content-center'>
+            <div className='nav-container'>
+                <nav className='navbar container-fluid navbar-expand-xl nav-fill justify-content-evenly'>
                     <ul className='nav nav-tabs'>
                         <li className='navbar-item'>
                             <NavLink to="/" className='nav-link' activeclass="active" exact="true">

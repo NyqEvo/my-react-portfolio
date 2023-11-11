@@ -11855,18 +11855,15 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.navbar {
-  background-color: #000;
-}
-
-#root {
-  min-width: 100vh;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
+.portfolio {
   justify-content: center;
-  background-color: #000 !important;
-  color: #fff;
+  background: linear-gradient(to bottom, #031633, #084298);
+  color: #f8f9fa;
+}
+@media (min-width: 768px) {
+  .portfolio {
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=custom.css.map */
