@@ -22,27 +22,25 @@ const Nav = () => {
 
         
             <div className='nav-container'>
-                <nav className='navbar container-fluid navbar-expand-xl nav-fill justify-content-evenly'>
-                    <ul className='nav nav-tabs'>
-                        <li className='navbar-item'>
+                <nav className='navbar navbar-expand-xl nav-fill justify-content-evenly'>
+                    <ul className='nav container-fluid nav-tabs'>
+                        <li className='navbar-item container-sm'>
                             <NavLink to="/" className='nav-link' activeclass="active" exact="true">
                                 Home
                             </NavLink>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item container-sm">
                             <NavLink to="/Projects" className="nav-link" activeclass="active" exact="true">
                                 Projects
                             </NavLink>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item container-sm">
                             <NavLink to="/Contact" className="nav-link" activeclass="active" exact="true">
                                 Contact
                             </NavLink>
                         </li>
                     </ul>
                 </nav>
-
-                <hr />
 
                 {/* <Routes>
                     <Route path="/" element={<Home title="Home" content="Tab for Home Component" />}>
