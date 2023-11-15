@@ -1,0 +1,9 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+#resume {
+    max-width: 50vw;
+}
+
+#resume p{
+    @include font-size(1.6rem);
+}
