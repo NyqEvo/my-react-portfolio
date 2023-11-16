@@ -1,0 +1,21 @@
+.contact-container ul li img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.contact-container ul li {
+    @include font-size(1.5rem)
+}
+
+.contact-container ul {
+    list-style-type: none;
+}
+
+#email {
+    color: dodgerblue;
+    text-decoration: underline;
+}
+
+#email {
+    cursor: pointer;
+}

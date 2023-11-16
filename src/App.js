@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 function App() {
 
     return (
-        <div className="portfolio-main container-fluid">
+        <div className="portfolio-main d-flex flex-column min-vh-100">
             <Header />
             <Router basename='/my-react-portfolio'>
                 <Nav />

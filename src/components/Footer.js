@@ -2,8 +2,8 @@ import React from 'react';
 
 function Footer() {
     return(
-        <footer className='container-fluid text-center'>
-            <p className='h3'>Made With React </p>
+        <footer className='mt-auto text-center '>
+            <p className='h3 my-4 py-4'>Made With React </p>
         </footer>
     )
 }
