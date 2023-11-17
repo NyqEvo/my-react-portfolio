@@ -1,4 +1,6 @@
-@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
 
 #resume {
     @include media-breakpoint-down(md) {
@@ -9,9 +11,3 @@
 #resume p {
     @include font-size(1.6rem);
 }
-
-// #resume img {
-//     @include media-breakpoint-up(md) {
-//         min-width: 50vw
-//     }
-// }

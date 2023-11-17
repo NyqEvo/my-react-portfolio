@@ -1,21 +1,38 @@
+:root {
+    --my-link-color: $teal-200;
+}
+
 .contact-container ul li img {
     max-width: 50px;
     max-height: 50px;
 }
 
-.contact-container ul li {
-    @include font-size(1.5rem)
+.contact-container ul li, .contact-container ul li a {
+    width: 90vw;
+    color: $teal-200;
+
+     @include font-size(1.5rem);
 }
 
 .contact-container ul {
     list-style-type: none;
+    min-height: 70vh;
+}
+
+.contact-container h3 {
+    @include font-size(2.0rem);
 }
 
 #email {
-    color: dodgerblue;
+    color: $teal-200;
     text-decoration: underline;
+    cursor: pointer;
 }
 
-#email {
-    cursor: pointer;
+#email:hover, .contact-container ul li, .contact-container ul li a:hover {
+    opacity: 75%;
+}
+
+.contact-container {
+    height: 80vh;
 }

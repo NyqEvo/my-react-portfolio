@@ -1,11 +1,11 @@
-@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
 @import 'contact';
-@import 'footer';
 @import 'home';
 @import 'nav';
 @import 'projects';
 @import 'resume';
-@import 'app';
 
 html {
     display: flex;
@@ -24,10 +24,6 @@ html {
         flex-direction: column;
     }
 }
-
-// .portfolio-main {
-//     min-height: 100vh;
-// }
 
 #root {
     min-height: 100vh;
